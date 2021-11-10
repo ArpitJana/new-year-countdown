@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Slab", serif;
+  background-image: url(./Images/snow2.jpg);
+  background-repeat: no-repeat;
+  color: #fef1e6;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+h1 {
+  margin: 0 0 0 0;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+/* .countdown-element span {
+  font-weight: bold;
+} */
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .big-text {
+  font-size: 6.8rem;
+  margin: 5rem 5rem 3rem 5rem;
+  font-weight: 700;
+  line-height: 0;
+} */
+
+.big-text {
+  font-size: 4rem;
+  margin: 5rem 2rem 2rem 2rem;
+  line-height: 0;
+  /* font-weight: 700; */
+} 
